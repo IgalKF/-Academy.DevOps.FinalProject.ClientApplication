@@ -23,7 +23,7 @@ const InputIndicator = (props: InputIndicatorProperties) => {
         return (
             <div style={inputStyle}>
                 <h2>Contains {props.textToFind}?</h2>
-                <img style={imageStyle} alt='indicator' src={(props.inputReference.current?.value.indexOf(props.textToFind) === -1 ? 'ui/rejected.png' : 'ui/checked.png')}></img>
+                <img style={imageStyle} alt='indicator' src={(props.inputReference.current?.value.indexOf(props.textToFind) === -1 ? 'rejected.png' : 'checked.png')}></img>
             </div>
         )
     }
