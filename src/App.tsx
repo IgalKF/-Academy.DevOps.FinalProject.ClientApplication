@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Best DevOps Project</h1>
+        <h1>Best DevOps Project, Auto Updated!</h1>
         <InputIndicator textToFind='lol' inputReference={ref}></InputIndicator>
         <TextArea textChanged={setTextChanged} ref={ref}></TextArea>
       </header>
