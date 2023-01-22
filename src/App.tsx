@@ -9,13 +9,13 @@ function App() {
   const ref = useRef<HTMLTextAreaElement>(document.createElement('textarea'));
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Best DevOps Project</h1>
-        <InputIndicator textToFind='lol' inputReference={ref}></InputIndicator>
-        <TextArea textChanged={setTextChanged} ref={ref}></TextArea>
-      </header>
-    </div>
+    <div className= "App" >
+    <header className="App-header" >
+      <h1>Best DevOps Project!!! < /h1>
+        < InputIndicator textToFind = 'lol' inputReference = { ref } > </InputIndicator>
+          < TextArea textChanged = { setTextChanged } ref = { ref } > </TextArea>
+            < /header>
+            < /div>
   );
 }
 
